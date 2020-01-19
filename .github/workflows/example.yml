@@ -8,8 +8,9 @@ jobs:
     steps:
     - name: Get Input from py api
       uses: deric4/py-hello-githubactions@master
+      id: x
       with:
         dummy: what a dummy
 
-    - name: Echo date
-      run: echo "hey"
+    - name: output
+      run: echo "${{ steps.x.outputs.o}}!"

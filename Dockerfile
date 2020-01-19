@@ -3,7 +3,8 @@ FROM python:3.8-slim-buster
 RUN mkdir /action
 WORKDIR /action
 
-COPY . .
+COPY requirements.txt .
+COPY action.py .
 
 RUN pip install --no-cache-dir -r requirements.txt
 

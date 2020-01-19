@@ -3,9 +3,9 @@ inputs:
   dummy:
     description: dummy input
     required: true
-  outputs:
-    o:
-      description: the dummy out was
+outputs:
+  o:
+    description: the dummy out was
 runs:
   using: docker
   image: Dockerfile

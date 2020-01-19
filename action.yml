@@ -6,6 +6,6 @@ inputs:
   outputs:
     o:
       description: the dummy out was
-  runs:
-    using: docker
-    image: Dockerfile
+runs:
+  using: docker
+  image: Dockerfile

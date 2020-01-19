@@ -12,5 +12,5 @@ jobs:
       with:
         dummy: what a dummy
 
-    - name: output
+    - name: Print Output
       run: echo "${{ steps.x.outputs.o}}!"

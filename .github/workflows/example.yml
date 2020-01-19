@@ -1,0 +1,15 @@
+name: Example
+on: [push]
+
+jobs:
+  example_job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Get Input from py api
+      uses: deric4/py-hello-githubactions@master
+      with:
+        dummy: what a dummy
+
+    - name: Echo date
+      run: echo "hey"

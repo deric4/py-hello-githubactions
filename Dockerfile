@@ -12,4 +12,4 @@ COPY action.py .
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1
 
-CMD ["python", "action.py"]
+CMD ["python", "/action/action.py"]

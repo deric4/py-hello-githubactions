@@ -1,5 +1,5 @@
 from githubactions import core
 
 
-x = core.get_input('foo')
-print(x)
+i = core.get_input('dummy')
+core.set_output('dummy', i)

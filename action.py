@@ -1,6 +1,6 @@
-from githubactions import core
+from githubactions.core import command as cmd
 import os
 
 
-i = core.get_input('dummy', {})
-core.set_output('o', i)
+i = cmd.get_input('dummy', {})
+cmd.set_output('o', i)

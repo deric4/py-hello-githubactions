@@ -7,7 +7,7 @@ jobs:
 
     steps:
     - name: Get Input from py api
-      uses: deric4/py-hello-githubactions@master
+      uses: deric4/py-hello-githubactions@context
       id: x
       with:
         dummy: what a dummy

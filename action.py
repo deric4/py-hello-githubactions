@@ -4,5 +4,5 @@ import os
 
 
 i = cmd.get_input('dummy', {})
-cmd.set_output('o', context.json())
+cmd.set_output('o', str(context))
 

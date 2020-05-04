@@ -4,5 +4,5 @@ import os
 
 
 i = cmd.get_input('dummy', {})
-cmd.set_output('o', context.repository_owner)
+cmd.set_output('o', type(context))
 
